@@ -188,32 +188,32 @@
   dependencies:
     tslib "^2.4.0"
 
-"@trpc/client@^9.27.0":
-  version "9.27.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-9.27.0.tgz#6fb2af2df051dea834173e5b9f12e74c65662af2"
-  integrity sha512-Yh+oDBiANArjDx69bSnXqIK36wjlRm8iGLQkMmrvTTFwVRt3hgfreCzjyj4PgNEd4SNX4iGrhLLPIDHeH+qlJA==
+"@trpc/client@^9.27.1":
+  version "9.27.1"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-9.27.1.tgz#9bfbab4162c7ea157158c2c054141888fa706a1b"
+  integrity sha512-srh3s1ekhV5fssqxdE5DagcW+bnWUXp4LWkuHTunPDUL5BaIs6l0FXE4wKMv9AFAcCw7xJOFx8VSwFl/raXqKQ==
   dependencies:
     "@babel/runtime" "^7.9.0"
 
-"@trpc/next@^9.27.0":
-  version "9.27.0"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-9.27.0.tgz#8574b6f7107d0482c624ff79ffeb9b9779cb0dad"
-  integrity sha512-hndgdL9yMIX+SedEeA97tlxjVzOOFKh+uIRgrysoTv9zrTDt+1njQF0p438/yg16AJZN9bv5e0NtuJYUvB4GKg==
+"@trpc/next@^9.27.1":
+  version "9.27.1"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-9.27.1.tgz#4f5bc41898621719fb0ed42192eac0485eeca0ef"
+  integrity sha512-eEo5ZJygODPIxzuH0iQzL2xsrggNq/bLF6F9OdLQ/wG8+VI4jUzCxDUNRt42rARAiZG4Y40jdPullMd/Kud4PA==
   dependencies:
     "@babel/runtime" "^7.9.0"
     react-ssr-prepass "^1.5.0"
 
-"@trpc/react@^9.27.0":
-  version "9.27.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react/-/react-9.27.0.tgz#db2334b42416027a292a856cb164def23b37a067"
-  integrity sha512-vAMBvI5AQP/US9MluO12V0OU/zwnGOUUTkRh22QQ20rcmR6NXPE28lMCdcJaHoTcbv1Mlr6vGXH7Er+/2+9tRg==
+"@trpc/react@^9.27.1":
+  version "9.27.1"
+  resolved "https://registry.yarnpkg.com/@trpc/react/-/react-9.27.1.tgz#7bf1c6fe36c8f3e4faf5b3724bd5eda96c8736ce"
+  integrity sha512-EX7GaZWvzF9WoyBDfO+54wV52x1nr31hMhnZiEKsZFgchnzjpIkYg0Q4XfZ/Nz0Puyn0Wf6ksMChbTXd0cTqSg==
   dependencies:
     "@babel/runtime" "^7.9.0"
 
-"@trpc/server@^9.27.0":
-  version "9.27.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-9.27.0.tgz#08aef2d0b025442e93f0c6b1421ddd7e81ae0eb5"
-  integrity sha512-5A/d5U9Y8L6+4q46a9gLackTyMRUFyNubo6JlIpSxtea/wW8teR6Azux4gg/uKIM3+6+lgg/HxQHWvwkG0VOSg==
+"@trpc/server@^9.27.1":
+  version "9.27.1"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-9.27.1.tgz#9bd364bf956b287922e25972ed5053d8c406def5"
+  integrity sha512-r/Fg3DuuYhIvXx5ZSmQ+VVyeV8kZ+N5aa6B7KkDg5wY+o7c1kDygCl+ZJ8XgwNg+yM2JPXPZxetWmyUw/YvWNQ==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -728,9 +728,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 electron-to-chromium@^1.4.202:
-  version "1.4.224"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.224.tgz#ecf2eed395cfedcbbe634658ccc4b457f7b254c3"
-  integrity sha512-dOujC5Yzj0nOVE23iD5HKqrRSDj2SD7RazpZS/b/WX85MtO6/LzKDF4TlYZTBteB+7fvSg5JpWh0sN7fImNF8w==
+  version "1.4.225"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.225.tgz#3e27bdd157cbaf19768141f2e0f0f45071e52338"
+  integrity sha512-ICHvGaCIQR3P88uK8aRtx8gmejbVJyC6bB4LEC3anzBrIzdzC7aiZHY4iFfXhN4st6I7lMO0x4sgBHf/7kBvRw==
 
 emoji-regex@^9.2.2:
   version "9.2.2"
@@ -1076,9 +1076,9 @@ flat-cache@^3.0.4:
     rimraf "^3.0.2"
 
 flatted@^3.1.0:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
-  integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
+  integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
 fraction.js@^4.2.0:
   version "4.2.0"
@@ -1860,9 +1860,9 @@ preact-render-to-string@^5.1.19:
     pretty-format "^3.8.0"
 
 preact@^10.6.3:
-  version "10.10.4"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.10.4.tgz#744f624a955595dac32908c3ec518026b99df807"
-  integrity sha512-3itXRadRHCZ09T5zdFg2SmgwZm7RBAGznA9W74Qwsb/Ri7SpjgGmICvwSRXFgYlXtlgJMDZqrIGP/4z53ZStZw==
+  version "10.10.6"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.10.6.tgz#1fe62aecf93974b64e6a42e09ba1f00f93207d14"
+  integrity sha512-w0mCL5vICUAZrh1DuHEdOWBjxdO62lvcO++jbzr8UhhYcTbFkpegLH9XX+7MadjTl/y0feoqwQ/zAnzkc/EGog==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
