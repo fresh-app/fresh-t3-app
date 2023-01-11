@@ -205,27 +205,27 @@
     "@tanstack/query-core" "4.22.0"
     use-sync-external-store "^1.2.0"
 
-"@trpc/client@^10.7.0":
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.8.1.tgz#779e92788e29ab80c5f8705df95b3664d0c0ea2e"
-  integrity sha512-DQ+Y3ek/rjCYaI8ifeeVPVW/KIO6ryye32Xdm9VAkdhd1humYD/4rN2CQ7K1zPTeNpbIpuckEAMEadeB4ItcMQ==
+"@trpc/client@^10.8.1":
+  version "10.8.2"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.8.2.tgz#20b82d7ea5f87c498296889bbe397b45e4c0d4e4"
+  integrity sha512-uQi+FWjogxQS7H09s5phWB8XeazlbA6R1eabFXq84Tmtvt6BWTYxStFLcv7C/p8gyduwT8/ZyrZ61P1Igce7gA==
 
-"@trpc/next@^10.7.0":
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.8.1.tgz#75b2b113108d8b028c99eca9778e7042bb7e458b"
-  integrity sha512-Jyn421PgZwoJPUodQWxnT+AI1j/u/0aiOu+fSvwQeot4LFCv61QnsD4IkVdYdlb/CnIKZWQIhYVO76RhHHNmhA==
+"@trpc/next@^10.8.1":
+  version "10.8.2"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.8.2.tgz#c8b004382e17b8d41f2bd54407ab1eeab792dedc"
+  integrity sha512-exJzXUZbTK4vWVQRVfnwnWenjVNXPGqgWpa70r92X+w3bNatfqf4FUFegFcswpcK1JSHZCjye25eiiB7WVYQ1g==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
-"@trpc/react-query@^10.7.0":
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.8.1.tgz#54b276d77fffa61d0156dfcc2cfa68299aff10be"
-  integrity sha512-PSpdfPFKM/UlD9VVtXVtfA8ZmqQZUtsP6ER/+QvXjHN6kTZ92PGJGjcL2HWhWZamLKnZSgudiB6sDsl7gPcOgA==
+"@trpc/react-query@^10.8.1":
+  version "10.8.2"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.8.2.tgz#23194e2ccdb7ab495f48ca5cea00b0f746b016fe"
+  integrity sha512-Ehpv1cKkTC3yHdZvVTR0iCRk/TGUsNzRUdsHZm8ZFw3+LE3QCygMjvrFo+Dbgs/c/ZcZ2e9rW8tr40B6eGZCRg==
 
-"@trpc/server@^10.7.0":
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.8.1.tgz#7997c675c30e140076c4a7d421e8c23c01645e5d"
-  integrity sha512-oSNYgFNJbjki4jBByJ/SKHasB/X7kTsEbVGaONNH1DHMz638xlYXPQucV+2bWbhCm5HlXhQTaVN7Or0lsCuUUQ==
+"@trpc/server@^10.8.1":
+  version "10.8.2"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.8.2.tgz#b89b8f8c5cd5a601eddf6c72da8dff306aeb0242"
+  integrity sha512-a5Ak83Q01l0yV8lg2NkpQeYWdNPjKxXVllBLliWdkvkVEodH3mLqqhYymzJkhCusSlBwwOff28JRHY0gF98/zQ==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -783,12 +783,13 @@ enhanced-resolve@^5.10.0:
     tapable "^2.2.0"
 
 es-abstract@^1.19.0, es-abstract@^1.20.4:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.21.0.tgz#dd1b69ea5bfc3c27199c9753efd4de015102c252"
-  integrity sha512-GUGtW7eXQay0c+PRq0sGIKSdaBorfVqsCMhGHo4elP7YVqZu9nCZS4UkK4gv71gOWNMra/PaSKD3ao1oWExO0g==
+  version "1.21.1"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.21.1.tgz#e6105a099967c08377830a0c9cb589d570dd86c6"
+  integrity sha512-QudMsPOz86xYz/1dG1OuGBKOELjCh99IIWHLzy5znUB6j8xG2yMA7bfTV86VSqKF+Y/H08vQPR+9jyXpuC6hfg==
   dependencies:
+    available-typed-arrays "^1.0.5"
     call-bind "^1.0.2"
-    es-set-tostringtag "^2.0.0"
+    es-set-tostringtag "^2.0.1"
     es-to-primitive "^1.2.1"
     function-bind "^1.1.1"
     function.prototype.name "^1.1.5"
@@ -801,7 +802,7 @@ es-abstract@^1.19.0, es-abstract@^1.20.4:
     has-proto "^1.0.1"
     has-symbols "^1.0.3"
     internal-slot "^1.0.4"
-    is-array-buffer "^3.0.0"
+    is-array-buffer "^3.0.1"
     is-callable "^1.2.7"
     is-negative-zero "^2.0.2"
     is-regex "^1.1.4"
@@ -834,7 +835,7 @@ es-get-iterator@^1.1.2:
     is-string "^1.0.5"
     isarray "^2.0.5"
 
-es-set-tostringtag@^2.0.0:
+es-set-tostringtag@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/es-set-tostringtag/-/es-set-tostringtag-2.0.1.tgz#338d502f6f674301d710b80c8592de8a15f09cd8"
   integrity sha512-g3OMbtlwY3QewlqAiMLI47KywjWZoEytKr8pf6iTC8uJq5bIAH52Z9pnQ8pVL6whrCto53JZDuUIsifGeLorTg==
@@ -1418,7 +1419,7 @@ is-arguments@^1.1.0, is-arguments@^1.1.1:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
 
-is-array-buffer@^3.0.0, is-array-buffer@^3.0.1:
+is-array-buffer@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/is-array-buffer/-/is-array-buffer-3.0.1.tgz#deb1db4fcae48308d54ef2442706c0393997052a"
   integrity sha512-ASfLknmY8Xa2XtB4wmbz13Wu202baeA18cJBCeCy0wXUHZF0IPyVEXqKEcd+t2fNSLLL1vC6k7lxZEojNbISXQ==
@@ -2105,9 +2106,9 @@ prop-types@^15.8.1:
     react-is "^16.13.1"
 
 punycode@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
-  integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.2.0.tgz#2092cc57cd2582c38e4e7e8bb869dc8d3148bc74"
+  integrity sha512-LN6QV1IJ9ZhxWTNdktaPClrNfp8xdSAYS0Zk2ddX7XsXZAxckMHPCBcHRo0cTcEIgYPRiGEkmji3Idkh2yFtYw==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
