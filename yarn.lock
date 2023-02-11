@@ -206,26 +206,26 @@
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@^10.9.0":
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.10.0.tgz#5abdbf399639f2fdfe605682d2cdf3f9dba87cb1"
-  integrity sha512-HRVGkOsR4FIYpyQILP84HLbj6pRnLKgxy4AIelTf9d9TxD60M5bNhbR2Uz3hqNSb9a2ppaRJBLv7twlV9b4qHQ==
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.11.0.tgz#1132ad1d07f9c71c3cf1b873c40b805d169923d5"
+  integrity sha512-GdSfyJxYI3Z9zyz2fEdJBGWLzqrpaonRtG1BtYLR5/63/eaW3/weA3JcEl2H3/CvqSNZfptNMZqLmaZyChTxdg==
 
 "@trpc/next@^10.9.0":
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.10.0.tgz#083ff327b68b005d60b19af07008377f830ad73a"
-  integrity sha512-7d84L2OoF0RW06drTbNGOOggwMes8JxI3Ln/VOIaYeERzwOFNCtWPmGjWCdq4l1SKbXC6+baS+b9n5cXc+euwA==
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.11.0.tgz#b5fa15e476734d3fb0a81ebc7247fedab647b359"
+  integrity sha512-BOKqJw7hq/QFMzWaMxK9nhov0+DYdBJJ9fkPWvQZNz1f4hiGsgl0BHygFg2pd2xWzjz1bgdHh//NJT9l7wbLyA==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@^10.9.0":
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.10.0.tgz#1faf32056aa3ee5ecb2ffd0d15e8abbcd7eff911"
-  integrity sha512-Jc/uii1MPevf95/z/W3ufYGHvrFvrtkjxQ8UuXhJCzOgv/FGPqhmA5PH124nLHEgGLBA7zQxHumofhdXosEhUQ==
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.11.0.tgz#445f1e2998e6514fdb019f58ded733b367775097"
+  integrity sha512-KsyjckHFa6uRC3nEZASJ5n44j090dQqDxdHgdxNDHS4Da7Hwq2fGgdfEAgERzGzp8RjH+qKpU/PD0/MYxHmNDQ==
 
 "@trpc/server@^10.9.0":
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.10.0.tgz#0b494335140d4fd5e1452f7b57dcc9b8886720a4"
-  integrity sha512-tCTqcqBT+3nebYFTHtwM877qo5xQPtVlptxKdUzMVWleWT4lFTL4oddk45qVURToci2iMbVJjd4jQU9y9/XwlQ==
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.11.0.tgz#5f391d9d09b0eda3fc55cf4f0b45934a6c5dd301"
+  integrity sha512-alV96Bjpa3bPgF+LZkJeQtrUJP/BM5EVpsB8S755RA3xtbudMw/lvLJFep8L/xTRw1HFZ7r4uRD31dKLOrMpaA==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -706,9 +706,9 @@ define-lazy-prop@^2.0.0:
   integrity sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==
 
 define-properties@^1.1.3, define-properties@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.4.tgz#0b14d7bd7fbeb2f3572c3a7eda80ea5d57fb05b1"
-  integrity sha512-uckOqKcfaVvtBdsVkdPv3XjveQJsNQqmhXgRi8uhvWWuPYZCNlzT8qAyblUgNoXdHdjMTzAqeGjAoli8f+bzPA==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.2.0.tgz#52988570670c9eacedd8064f4a990f2405849bd5"
+  integrity sha512-xvqAVKGfT1+UAvPwKTVw/njhdQ8ZhXK4lI0bCIuCMrp2up9nPnaDftrLtmpTazqd1o+UY4zgzU+avtMbDP+ldA==
   dependencies:
     has-property-descriptors "^1.0.0"
     object-keys "^1.1.1"
@@ -759,9 +759,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 electron-to-chromium@^1.4.284:
-  version "1.4.293"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.293.tgz#eaea755ad37a0f1759874a8597b33be62def2781"
-  integrity sha512-h7vBlhC83NsgC9UO3LOZx91xgstIrHk5iqMbZgnEArL5rHTM6HfsUZhnwb3oRnNetXM1741kB9SO7x9jLshz5A==
+  version "1.4.295"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.295.tgz#911d5df67542bf7554336142eb302c5ec90bba66"
+  integrity sha512-lEO94zqf1bDA3aepxwnWoHUjA8sZ+2owgcSZjYQy0+uOSEclJX0VieZC+r+wLpSxUHRd6gG32znTWmr+5iGzFw==
 
 emoji-regex@^9.2.2:
   version "9.2.2"
@@ -1012,9 +1012,9 @@ eslint-visitor-keys@^3.3.0:
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
 eslint@^8.30.0:
-  version "8.33.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.33.0.tgz#02f110f32998cb598c6461f24f4d306e41ca33d7"
-  integrity sha512-WjOpFQgKK8VrCnAtl8We0SUOy/oVZ5NHykyMiagV1M9r8IFpIJX7DduK6n1mpfhlG7T1NLWm2SuD8QB7KFySaA==
+  version "8.34.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.34.0.tgz#fe0ab0ef478104c1f9ebc5537e303d25a8fb22d6"
+  integrity sha512-1Z8iFsucw+7kSqXNZVslXS8Ioa4u2KM7GPwuKtkTFAqZ/cHMcEaR+1+Br0wLlot49cNxIiZk5wp8EAbPcYZxTg==
   dependencies:
     "@eslint/eslintrc" "^1.4.1"
     "@humanwhocodes/config-array" "^0.11.8"
