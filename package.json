@@ -43,6 +43,6 @@
     "typescript": "^5.0.2"
   },
   "ct3aMetadata": {
-    "initVersion": "7.9.0"
+    "initVersion": "7.10.0"
   }
 }
