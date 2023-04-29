@@ -8,9 +8,9 @@
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
 "@babel/runtime@^7.20.13", "@babel/runtime@^7.20.7":
-  version "7.21.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
-  integrity sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==
+  version "7.21.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.5.tgz#8492dddda9644ae3bda3b45eabe87382caee7200"
+  integrity sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==
   dependencies:
     regenerator-runtime "^0.13.11"
 
@@ -231,6 +231,18 @@
   dependencies:
     tslib "^2.4.0"
 
+"@t3-oss/env-core@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@t3-oss/env-core/-/env-core-0.2.2.tgz#e216ce44d4618d6f69c240efc02bd9e15221035b"
+  integrity sha512-Jiuph14/L3L9EDaU0O0YiLeaKUcWA9c3mWYuKem8+L64i3Iwz+IbKdl5Jp4cx+JbOsS/aptwGZplnxSHhm2gMQ==
+
+"@t3-oss/env-nextjs@^0.2.1":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@t3-oss/env-nextjs/-/env-nextjs-0.2.2.tgz#e638e22563cb1782a3c8f5d837caa00714de22a2"
+  integrity sha512-9LnVpTkf/8WkggyVN6Liz9Ma9a7fLzV00b5BngWj3HI3iWDfddsWaqCf/H0f46Bgu29NubP3Bwajf1JieVrxFA==
+  dependencies:
+    "@t3-oss/env-core" "0.2.2"
+
 "@tanstack/query-core@4.29.5":
   version "4.29.5"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.5.tgz#a0273e88bf2fc102c4c893dc7c034127b67fd5d9"
@@ -245,26 +257,26 @@
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@^10.18.0":
-  version "10.21.2"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.21.2.tgz#6ec7d5d98719a7934b395b323b3ce20331cd1848"
-  integrity sha512-It5NjrdOqT9UyrJPzpSfT9SAECFt2QxTM/XOX7PQ2s/CnvFCc4420UITV7lYJiWLsD8zdG1CLLO6KdFvDL11FQ==
+  version "10.22.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.22.0.tgz#e215a566baf2115a33eb3f3d33faf6be63a437dc"
+  integrity sha512-zM1JKYWHg8O19JtqZnXQpwRjCcW9iGVmuxj+gKGr0Xmfy8OQRzYVxs625WHXzFt//UtuCjX24YBVjWMDcadAyg==
 
 "@trpc/next@^10.18.0":
-  version "10.21.2"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.21.2.tgz#5fa4de51bb816b33aa03f2f469963ef3f9f54cb6"
-  integrity sha512-Emo33iQ/uG5aYOxUVXmqTC4HWWx7T/6NAYsMkmiPUBIssbhjqeAF5a5JmyneaUgeifMzHnkqS9UdCcJiH/BfpQ==
+  version "10.22.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.22.0.tgz#ee20cef25350ac9aa947dc1b0a755e0b29efb1eb"
+  integrity sha512-UlgeuUvws1QFXCFwNQjUcDhJrdd8sYHQVwQuuih2W+tePuq4nPTUxM2lTS3JnJf6uqgRGox4qZfzLmDVZ6vdxg==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@^10.18.0":
-  version "10.21.2"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.21.2.tgz#dc9b53daafaa62cfa097b615d5e4ede28ef6ff3a"
-  integrity sha512-INuxZ27t4p/deqMQmEc+a8ipvNOkdKV2scd5ZUleQL8LgE/lw4+R5bsJopMJFHuJtwMCOOADb1+7DLaQK/NwRQ==
+  version "10.22.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.22.0.tgz#6a84b4f3371ab662948c7f667a44a6c66820601b"
+  integrity sha512-BxcjoyMKB+PfqjdunefI2ng1DBMa6X2/aOOc052uYdPVeYlQcH+bd7Zd0X+GvD2je+boBNY29AO77rlu1wKggQ==
 
 "@trpc/server@^10.18.0":
-  version "10.21.2"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.21.2.tgz#33f4ae2e1330dbc37e0c9e2337bdc8f97be72892"
-  integrity sha512-4v9FIOQw1J06OLICLj0M5jmrVF1XCEyu1FXvZA4wB/om1q18NWENXaLjcisgvV/h2gBxx8iN00t9/bE9jn2+fw==
+  version "10.22.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.22.0.tgz#63d3a265ea4f5e3bfebf8028b74ec2bbf952c498"
+  integrity sha512-je1onD7yyjJjhy9kiqMmf8TN93hhE+aWO6N3sVmQBh0Q8bCvJ4d24GdEOhI2yvj5tHTpARTvYtsZMkX9GuyTpw==
 
 "@types/eslint@^8.21.3":
   version "8.37.0"
@@ -804,9 +816,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 electron-to-chromium@^1.4.284:
-  version "1.4.376"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.376.tgz#a771d6c4db028634df126348a4f94075e07e7f65"
-  integrity sha512-TFeOKd98TpJzRHkr4Aorn16QkMnuCQuGAE6IZ0wYF+qkbSfMPqjplvRppR02tMUpVxZz8nyBNvVm9lIZsqrbPQ==
+  version "1.4.377"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.377.tgz#7f326a0b2c1b96eca6bb65907addc505d0d15989"
+  integrity sha512-H3BYG6DW5Z+l0xcfXaicJGxrpA4kMlCxnN71+iNX+dBLkRMOdVJqFJiAmbNZZKA1zISpRg17JR03qGifXNsJtw==
 
 emoji-regex@^9.2.2:
   version "9.2.2"
@@ -2137,9 +2149,9 @@ prelude-ls@^1.2.1:
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
 prettier-plugin-tailwindcss@^0.2.6:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.2.7.tgz#2314d728cce9c9699ced41a01253eb48b4218da5"
-  integrity sha512-jQopIOgjLpX+y8HeD56XZw7onupRTC0cw7eKKUimI7vhjkPF5/1ltW5LyqaPtSyc8HvEpvNZsvvsGFa2qpa59w==
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.2.8.tgz#e9c0356680331f909a86fefe8fc2b247c21e23a2"
+  integrity sha512-KgPcEnJeIijlMjsA6WwYgRs5rh3/q76oInqtMXBA/EMcamrcYJpyhtRhyX1ayT9hnHlHTuO8sIifHF10WuSDKg==
 
 prettier@^2.8.6:
   version "2.8.8"
