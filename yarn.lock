@@ -248,17 +248,17 @@
   dependencies:
     "@t3-oss/env-core" "0.3.1"
 
-"@tanstack/query-core@4.32.5":
-  version "4.32.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.32.5.tgz#1c9da404ba4906c35b3998ba03ea4ab44019750c"
-  integrity sha512-UOxiDYmzYWD21ASIUnW3w+Nq3LcW1BPFFfIyZOor6UsRl76KGLlvUhJ402/dof1JxcQFPK7nZ5iUGPVqLiT8zg==
+"@tanstack/query-core@4.32.6":
+  version "4.32.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.32.6.tgz#cf7df91ab1542e67a82624fefb12a55f580b4c01"
+  integrity sha512-YVB+mVWENQwPyv+40qO7flMgKZ0uI41Ph7qXC2Zf1ft5AIGfnXnMZyifB2ghhZ27u+5wm5mlzO4Y6lwwadzxCA==
 
 "@tanstack/react-query@^4.29.7":
-  version "4.32.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.32.5.tgz#666abcf6cbeb8475e44f91a4279302f69b2f4ee9"
-  integrity sha512-4tR0GxyyKhLpYvbglOGpWVqHS+t3bs7yy89DuTgJvnKLnaS5UW2sbfAzlV9JtwL7s5Z8eW2q2EDMcAtutb0lAw==
+  version "4.32.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.32.6.tgz#f88c2d57f423d4cd295c501df2edeb3285a301bd"
+  integrity sha512-AITu/IKJJJXsHHeXNBy5bclu12t08usMCY0vFC2dh9SP/w6JAk5U9GwfjOIPj3p+ATADZvxQPe8UiCtMLNeQbg==
   dependencies:
-    "@tanstack/query-core" "4.32.5"
+    "@tanstack/query-core" "4.32.6"
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@^10.26.0":
@@ -307,9 +307,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@^18.16.0":
-  version "18.17.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.2.tgz#95b4df6c724e146ef932043a1fb6b8f80975e461"
-  integrity sha512-wBo3KqP/PBqje5TI9UTiuL3yWfP6sdPtjtygSOqcYZWT232dfDeDOnkDps5wqZBP9NgGgYrNejinl0faAuE+HQ==
+  version "18.17.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.3.tgz#409febdc84478b452306a8112c692e800ad9f6fe"
+  integrity sha512-2x8HWtFk0S99zqVQABU9wTpr8wPoaDHZUcAkoTKH+nL7kPv3WUI9cRi/Kk5Mz4xdqXSqTkKP7IWNoQQYCnDsTA==
 
 "@types/prettier@^2.7.2":
   version "2.7.3"
@@ -1023,13 +1023,13 @@ eslint-config-next@^13.4.2:
     eslint-plugin-react-hooks "5.0.0-canary-7118f5dd7-20230705"
 
 eslint-import-resolver-node@^0.3.6, eslint-import-resolver-node@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.7.tgz#83b375187d412324a1963d84fa664377a23eb4d7"
-  integrity sha512-gozW2blMLJCeFpBwugLTGyvVjNoeo1knonXAcatC6bjPBZitotxdWf7Gimr25N4c0AAOo4eOUfaG82IJPDpqCA==
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.8.tgz#be719e72f5e96dcef7a60f74147c842db0c74b06"
+  integrity sha512-tEe+Pok22qIGaK3KoMP+N96GVDS66B/zreoVVmiavLvRUEmGRtvb4B8wO9jwnb8d2lvHtrkhZ7UD73dWBVnf/Q==
   dependencies:
     debug "^3.2.7"
-    is-core-module "^2.11.0"
-    resolve "^1.22.1"
+    is-core-module "^2.13.0"
+    resolve "^1.22.4"
 
 eslint-import-resolver-typescript@^3.5.2:
   version "3.5.5"
@@ -1957,9 +1957,9 @@ natural-compare@^1.4.0:
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
 next-auth@^4.22.1:
-  version "4.22.3"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.22.3.tgz#bbe5152e0e3ea6d625731f23adba4fd2e3d2d570"
-  integrity sha512-XAgy9xV3J2eJOXrQhmxdjV6MLM29ibm6WtMXc3KY6IPZeApf+SuBuPvlqCUfbu5YsAzlg9WSw6u01dChTfeZOA==
+  version "4.22.4"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.22.4.tgz#fccc74f31010042c7e900b76c13acd88268d4932"
+  integrity sha512-VMI6pq3z4BfvFeCZHBkYtRYa0qqGTYAi2yy3hWCB78KkN1YsSAsOLSssd4oGrQBj0z/0zg2VLzn9tSJ14AtmWw==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@panva/hkdf" "^1.0.2"
@@ -2421,7 +2421,7 @@ resolve-pkg-maps@^1.0.0:
   resolved "https://registry.yarnpkg.com/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz#616b3dc2c57056b5588c31cdf4b3d64db133720f"
   integrity sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==
 
-resolve@^1.1.7, resolve@^1.22.1, resolve@^1.22.2, resolve@^1.22.3:
+resolve@^1.1.7, resolve@^1.22.2, resolve@^1.22.3, resolve@^1.22.4:
   version "1.22.4"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.4.tgz#1dc40df46554cdaf8948a486a10f6ba1e2026c34"
   integrity sha512-PXNdCiPqDqeUou+w1C2eTQbNfxKSuMxqTCuvlmmMsk1NWHL5fRrhY6Pl0qEYYc6+QqGClco1Qj8XnjPego4wfg==
