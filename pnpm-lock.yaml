@@ -1362,8 +1362,8 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-  oauth4webapi@2.13.0:
-    resolution: {integrity: sha512-/dpLFP/JOETpd8Rg2yhSgs+D4iKAPlntXTEWIEt5sn21jXA/OEVUUnMp2MTAXk34X0GJFU6MaJHEZbrRFq/H3w==}
+  oauth4webapi@2.15.0:
+    resolution: {integrity: sha512-6nZnlxj6M3LeVrxB7bgxwY8hq0B5Quemxhbw85evRlK70qCCUm9O1s47AepSmgYUbkwLTFedP1DZ1eBUIKyRSw==}
 
   oauth@0.9.15:
     resolution: {integrity: sha512-a5ERWK1kh38ExDEfoO6qUHJb32rd7aYmPHuyCu3Fta/cnICvYmgd2uhuKXvPD+PXB+gCEYYEaQdIRAjCOwAKNA==}
@@ -1961,7 +1961,7 @@ snapshots:
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       jose: 5.9.2
-      oauth4webapi: 2.13.0
+      oauth4webapi: 2.15.0
       preact: 10.11.3
       preact-render-to-string: 5.2.3(preact@10.11.3)
 
@@ -3438,7 +3438,7 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
-  oauth4webapi@2.13.0: {}
+  oauth4webapi@2.15.0: {}
 
   oauth@0.9.15: {}
 
