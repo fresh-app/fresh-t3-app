@@ -1,0 +1,13 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  "@swc/core": true
+  core-js: true
+  lightningcss: true
+  "@tailwindcss/oxide": true
+  "@parcel/watcher": true
+  rollup: true
+  "@prisma/client": true
+  prisma: true
+  "@prisma/engines": true
