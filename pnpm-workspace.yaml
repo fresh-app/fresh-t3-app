@@ -9,5 +9,5 @@ allowBuilds:
   "@parcel/watcher": true
   rollup: true
   "@prisma/client": true
-  prisma: true
+  "prisma": true
   "@prisma/engines": true
